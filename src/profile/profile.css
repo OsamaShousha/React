@@ -1,0 +1,24 @@
+ *,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ .app-container{
+    font-family: sans-serif;
+    background-color: #f8fafc;
+    color:#0f172a;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color:  #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+
+ }
+
+ .Container{
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ }

@@ -1,0 +1,39 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+ .main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+   
+  
+}
+
+.Container{
+     display:grid;
+     grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.section {
+    display:flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+     transition: all  0.400s;
+  
+}
+
+#btn{
+    width: 6rem;
+    height: 2.5rem;
+}
+
+.section:hover, #btn, .sidbar{
+     box-shadow: 12px 6px 6px -1px rgb(0,0,1);
+    transition: all  0.400s;
+}
