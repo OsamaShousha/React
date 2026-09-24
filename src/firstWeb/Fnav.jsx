@@ -10,7 +10,7 @@ function Nav()
             <li><a href="#">Contact</a></li>
             <li><a href="#">Links</a></li>
         </ul>
-        <h1 className="heading">Welcom to My Nav</h1>
+        <h1 className="heading">Welcom to My Website</h1>
         </nav>
     
 

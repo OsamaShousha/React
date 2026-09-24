@@ -4,12 +4,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color:antiquewhite ;
+    background-color:#BFC6C4 ;
 }
 
 .heading{
    margin: 2rem auto;
-   width: 350px;
+   width: 400px;
    padding: 2rem;
   
 }
@@ -43,6 +43,8 @@
   padding: 20px;
   border: 2px solid black;
   margin: auto;
+  background-color: #BFC6C4;
+  color: #030164;
 
 }
 
