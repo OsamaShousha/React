@@ -1,0 +1,70 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color:white;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 3rem;
+
+}
+
+.list li {
+    list-style: none;
+    text-decoration: none;
+  
+}
+
+a{
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+
+
+.header{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 4rem;
+  gap: 2rem;
+ 
+}
+
+.pragraph{
+    width: 300px;
+    margin: 0.5rem;
+}
+
+.nav{
+    padding: 3rem;
+}
+
+h1{
+    width: 30%;
+    margin: 2rem auto;
+}
+
+img{
+     transform: scale(1.05);
+    box-shadow: 10px 20px 100px rgb(163, 163, 168);
+  
+     padding: 2rem;
+     transform: translateY(-15px) scale(1.02);
+  
+     
+}
+
+.social a{
+    display: flex;
+    gap: 2rem;
+    font-size: 1rem;
+    
+}
