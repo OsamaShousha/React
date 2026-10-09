@@ -14,20 +14,20 @@ const UserForm12 = () => {
      }}>
        <form >
         <div>
-            <label >User Nmae</label>
-            <input type="text" value={name} onChange={(e) =>setName(e.target.value)}
+            <label >User Name</label>
+            <input type="text" value={name} onChange={(e) =>setName(e.target.value)} placeholder='User Name'
             style={{width:"100%", height:"2rem"}}
             />
         </div>
         <div>
             <label >User Email</label>
-            <input type="email"  value={email} onChange={(e) => setEmail(e.target.value)}
+            <input type="email"  value={email} onChange={(e) => setEmail(e.target.value)}placeholder='User Email'
             style={{width:"100%", height:"2rem"}}
             />
         </div>
         <div>
             <label >User Age</label>
-            <input type="Number" min="0" value={age} onChange={(e) => setAge(age?(e.target.value):0)}
+            <input type="Number" min="0" value={age} onChange={(e) => setAge(age?(e.target.value):0)} placeholder='User Age'
             style={{width:"100%", height:"2rem"}}
             />
         </div>
