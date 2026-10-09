@@ -27,7 +27,7 @@ const UserForm12 = () => {
         </div>
         <div>
             <label >User Age</label>
-            <input type="Number" min="0" value={age} onChange={(e) => setAge(age?(e.target.value):0)} placeholder='User Age'
+            <input type="Number" min="0" value={age} onChange={(e) => setAge(e.target.value)} placeholder='User Age'
             style={{width:"100%", height:"2rem"}}
             />
         </div>
